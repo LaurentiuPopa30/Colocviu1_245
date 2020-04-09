@@ -50,6 +50,12 @@ public class Colocviu1_245MainActivity extends AppCompatActivity {
         compute.setOnClickListener(buttonClickListener);
     }
 
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -58,6 +64,11 @@ public class Colocviu1_245MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 
     @Override
