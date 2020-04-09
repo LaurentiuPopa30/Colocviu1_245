@@ -48,5 +48,20 @@ public class Colocviu1_245MainActivity extends AppCompatActivity {
         add.setOnClickListener(buttonClickListener);
         compute = (Button) findViewById(R.id.compute);
         compute.setOnClickListener(buttonClickListener);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
 }
